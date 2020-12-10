@@ -19,4 +19,3 @@ React Sample
 - [X] TV show Detail
 - [X] Movie Detail
 - [x] Search (Movie,TV)
-
