@@ -11,11 +11,12 @@ React Sample
 
 ##API Verbs
 
-- [ ] Now Playing (Movie)
-- [ ] Top Rapted (Movie)
-- [ ] Popular (TV)
-- [ ] Upcoming (TV,Movie)
-- [ ] Airing Today (TV)
-- [ ] TV show Detail
-- [ ] Movie Detail
-- [ ] Search (Movie,TV)
+- [x] Now Playing (Movie)
+- [x] Top Rapted (Movie)
+- [X] Popular (TV)
+- [X] Upcoming (TV,Movie)
+- [X] Airing Today (TV)
+- [X] TV show Detail
+- [X] Movie Detail
+- [x] Search (Movie,TV)
+
