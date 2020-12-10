@@ -6,7 +6,7 @@ import TV from 'Routes/TV'
 import Detail from 'Routes/Detail'
 import Header from "./Header";
 
-export default () =>
+export default ()=>
 (    <Router>
             <>
        <Header/>
