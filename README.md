@@ -19,3 +19,11 @@ React Sample
 - [X] TV show Detail
 - [X] Movie Detail
 - [x] Search (Movie,TV)
+
+## Challenge
+
+- [ ] IMDB Link
+- [ ] Tabs inside of Movie / Show Details
+- [ ] Collection Link
+- [ ] /collection Route
+- [ ] On TV show, show seasons and creators
