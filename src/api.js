@@ -41,14 +41,29 @@ export const tvApi = {
         }
     }))
 }
-
+/*
+*
+* {"web":
+            {"client_id":"708361541583-0vaf8j58t3nsp9rt82qt0f6r31qhtddi.apps.googleusercontent.com",
+                "project_id":"marine-outpost-321208",
+                "auth_uri":"https://accounts.google.com/o/oauth2/auth",
+                "token_uri":"https://oauth2.googleapis.com/token",
+                "auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
+                "client_secret":"_2g9Nk0UHcsgogx9QpP6iWJw",
+                "redirect_uris":["https://localhost"]
+            }
+        }
+*
+* */
 const api2 = axios.create({
-    baseURL:"https://www.googleapis.com/calendar/v3/calendars",
+    baseURL:"/auth",
     params:{
-
+        "client_id":"708361541583-0vaf8j58t3nsp9rt82qt0f6r31qhtddi.apps.googleusercontent.com",
+        "client_secret":"_2g9Nk0UHcsgogx9QpP6iWJw",
+        "redirect_uri":"https://localhost",
     }
 })
 
 export const calendarApi = {
-
+    code : () => api2.get(""),
 }
