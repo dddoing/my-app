@@ -41,3 +41,14 @@ export const tvApi = {
         }
     }))
 }
+
+const api2 = axios.create({
+    baseURL:"https://www.googleapis.com/calendar/v3/calendars",
+    params:{
+
+    }
+})
+
+export const calendarApi = {
+
+}
