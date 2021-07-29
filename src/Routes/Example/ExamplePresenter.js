@@ -1,15 +1,17 @@
 import React from 'react';
-import GoogleLogin from "react-google-login";
 
-const ExamplePresenter = ({sample}) =>
+const ExamplePresenter = ({createc,sample2,deletec,updatec}) =>
+    <>
     <div>
-        <GoogleLogin
-            clientId="708361541583-0vaf8j58t3nsp9rt82qt0f6r31qhtddi.apps.googleusercontent.com"
-            onSuccess={sample}
-            onFailure={sample}
-            buttonText="login"
-        />
+        <button onClick={(e)=>sample2(e)} value='login' >login</button>
+        <button onClick={(e)=>sample2(e)} value='logout'>logout</button>
     </div>
+    <div>
+       <button onClick={createc}>create</button>
+       <button onClick={deletec}>delete</button>
+       <button onClick={updatec}>update</button>
+    </div>
+    </>
 ;
 
 export default ExamplePresenter;
